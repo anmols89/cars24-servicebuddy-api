@@ -46,6 +46,9 @@ app = FastAPI(
     title="Cars24 ServiceBuddy API",
     description="AI-powered car service assistant for Cars24 lifetime warranty customers",
     version="1.0.0",
+    docs_url="/docs",
+    redoc_url="/redoc",
+    openapi_url="/openapi.json",
 )
 
 # This allows the Cars24 app (or any frontend) to talk to your API
