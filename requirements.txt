@@ -1,0 +1,13 @@
+# =============================================================
+# Python packages needed for ServiceBuddy API
+# Install all at once with: pip install -r requirements.txt
+# =============================================================
+
+fastapi==0.115.0          # The web framework (builds the API)
+uvicorn==0.30.0           # The server (runs the API)
+python-dotenv==1.0.1      # Reads your .env file for API keys
+pydantic==2.9.0           # Data validation (checks request/response formats)
+
+# --- AI Providers (install the one you want to use) ---
+openai==1.50.0            # For OpenAI/GPT integration
+anthropic==0.34.0         # For Claude integration
